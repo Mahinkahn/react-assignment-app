@@ -1,19 +1,51 @@
-.custom-height{
+body {
+    background-color: #121C31;
+}
+
+.custom-height {
     height: 100%;
 }
-.img-custom-height-and-width{
+
+.card-body {
+    background-color: #121C31;
+    border: 2px solid #192539;
+    color: #fff;
+
+}
+
+.card-title {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+.card-text {
+    color: #62738D;
+}
+
+
+.img-custom-height-and-width {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
-.btn-width{
+
+.btn-width {
     width: 100%;
-    
+    background-image: linear-gradient(to right, #0da8e8, #00b1e7, #00b9e3, #00c1de, #0dc8d7);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+
 }
-.custom-description{
+
+.custom-description {
     overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
-   -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
 }

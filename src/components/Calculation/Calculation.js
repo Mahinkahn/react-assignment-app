@@ -54,7 +54,7 @@ const Calculation = ({ exerciseTime }) => {
                 <p className='break-customize'>Break time: <span>{breakTime}min</span></p>
             </div>
 
-            <button className='btn btn-primary w-100' onClick={activity}>Activity Completed</button>
+            <button className='btn-sty w-100' onClick={activity}>Activity Completed</button>
         </div>
     );
 };

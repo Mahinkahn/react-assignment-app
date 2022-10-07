@@ -10,16 +10,16 @@ const Cart = ({ data, setExerciseTime }) => {
 
     }
     return (
-        <div className={'col-12 col-md-6 col-lg-4 mb-4'}>
+        <div className={'col-12 col-md-6 col-lg-4 mb-4 mt-4'}>
             <div className="card custom-height">
                 <img src={data.img} className="card-img-top img-custom-height-and-width" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{data.name}</h5>
+                    <h3 className="card-title">{data.name}</h3>
                     <p className="card-text custom-description">{data.dec}</p>
-                    <p>For Age : {data.age}</p>
-                    <p>Time required :{data.timeRequired}s</p>
+                    <p className='text'>For Age : {data.age}</p>
+                    <p className='text'>Time required :{data.timeRequired}s</p>
                     <div>
-                        <button className='btn btn-primary btn-width' onClick={handleTime} type={'button'}>{isClick ? "Added" : "Add to List"}</button>
+                        <button className='btn-width' onClick={handleTime} type={'button'}>{isClick ? "Add" : "Add to List"}</button>
                     </div>
                 </div>
             </div>

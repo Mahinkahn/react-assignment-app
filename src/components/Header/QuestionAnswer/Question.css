@@ -2,14 +2,16 @@
     padding: 80px;
     background-color: #efefef;
 }
+
 .question {
     margin-bottom: 8px;
-    background: #9c97a0;
+    background-color: #0F172A;
     color: white;
     padding: 20px;
     border-radius: 10px;
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
     .question-section {
         padding: 10px;
     }
