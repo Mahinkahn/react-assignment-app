@@ -2,7 +2,7 @@ import React from 'react';
 import './Question.css'
 const Question = () => {
     return (
-        <div className='question-section'>
+        <div className='question-section mt-4'>
             <h5 className='question'>How Dose React Work?</h5>
             <p className='answer'>
                 React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other libraries.</p>
