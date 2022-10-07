@@ -35,10 +35,10 @@ const Calculation = ({ exerciseTime }) => {
         <div className='add-break-section'>
             <div className='personal-section'>
                 <img src={profile} className='profile-img' alt="" />
-                <h6>Gym Instructor</h6>
+                <h5 className='text'>Instructor</h5>
             </div>
             <div>
-                <h5 className='mb-4 custom-break'>Add A Break</h5>
+                <h3 className='text'>Add A Break</h3>
                 <div className='add-break'>
                     <button className='btn-custom' onClick={() => addBreakTime(30)}>30min</button>
                     <button className='btn-custom' onClick={() => addBreakTime(40)}>40min</button>
@@ -49,11 +49,11 @@ const Calculation = ({ exerciseTime }) => {
 
             </div>
             <div>
-                <h5 className='mt-5 custom-break'>Exercise Details</h5>
+                <h3 className='mt-5 text'>Exercise Details</h3>
                 <p className='break-customize'>Exercise time: <span>{exerciseTime}s</span> </p>
                 <p className='break-customize'>Break time: <span>{breakTime}min</span></p>
             </div>
-            
+
             <button className='btn btn-primary w-100' onClick={activity}>Activity Completed</button>
         </div>
     );
