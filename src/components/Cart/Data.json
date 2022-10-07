@@ -1,0 +1,46 @@
+[
+    {"id": 1,
+      "name": "Chest Press",
+      "dec": "The chest press is a classic upper-body strengthening exercise that works your pectorals (chest), deltoids (shoulders), and triceps (arms). For the best results and safety, it’s essential that you use proper form and good technique.",
+      "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/07/Male_Chest_Press_1296x728-header-1296x728.jpg?w=1155&h=1528",
+      "age": "25-30",
+      "timeRequired": 30
+    },
+    {"id": 2,
+      "name": "Chest Fly",
+      "dec": "Most of us know that sitting at a desk for long hours is bad for the back and hip joint. But the truth is that sitting or conducting business calls on the phone for prolonged hours can be tough on the upper body joints, too.",
+      "img": "https://images.myupchar.com/9661/original/chest-fly-exercise.jpg",
+      "age": "30-35",
+      "timeRequired": 20
+    },
+    {"id": 3,
+      "name": "Sholder press",
+      "dec": "You already know the shoulder press—often called a military press—will turn puny delts into cannonballs. But a lot of guys don’t realize that the shoulder press can also help you carve harder abs and increase your bench press as well.",
+      "img": "https://www.mensjournal.com/wp-content/uploads/mf/shoulder_press_main.jpg?quality=86&strip=all",
+      "age": "25-35",
+      "timeRequired": 50
+    },
+    {"id": 4,
+      "name": "Legs Curl",
+      "dec": "You've been told that the hamstrings are predominantly fast-twitch fibers, so you've been training them accordingly: high loads, low reps, and explosive concentrics with plenty of rest.",
+      "img": "https://cdn.shopify.com/s/files/1/0057/5599/4225/products/RS-1402-Leg-Curl-Selectorized-ROC-IT-Exercise-Start_grande.jpg?v=1576174893",
+      "age": "31-40",
+      "timeRequired": 40
+    },
+    {"id": 5,
+      "name": "Chest Cross Cable",
+      "dec": "When it comes to sculpting your chest, many people turn to the good old bench press. The cable crossover is often overlooked, although it is a great exercise to strengthen your entire chest and has a few perks that the bench press does not.",
+      "img": "https://image.boxrox.com/2021/10/cable-crossover.jpg",
+      "age": "25-35",
+      "timeRequired": 45
+    },
+    {"id": 6,
+      "name": "Push Ups",
+      "dec": "Easily the most common physical workout routine of modern time, push-ups help us to improve core strength and upper body. Push-ups are simple yet challenging exercises that require no equipment.",
+      "img": "https://www.kreedon.com/wp-content/uploads/2021/08/oYDbf5hQAePHEBNZTQMXRA.jpg",
+      "age": 25,
+      "timeRequired": 56
+    }
+  
+  
+  ]

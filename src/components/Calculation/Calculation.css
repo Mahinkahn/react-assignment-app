@@ -1,0 +1,51 @@
+.add-break-section {
+    margin: 0 auto;
+    background-color: #0F172A;
+    padding: 30px 50px;
+    height: 100%;
+}
+
+.btn-custom {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    margin: 6px;
+}
+
+.add-break {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #0da8e8, #00b1e7, #00b9e3, #00c1de, #0dc8d7);
+    padding: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.personal-section {
+    text-align: center;
+}
+
+.break-customize {
+    background: #e2dede;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-break {
+        text-align: center;
+    }
+
+    .select-part {
+        font-size: 17px;
+    }
+}

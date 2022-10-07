@@ -1,0 +1,16 @@
+.logo-header{
+    width: 100px;
+    margin-right: 15px;
+}
+.daily-part{
+    color:blueviolet;
+}
+.select-part{
+    color:gray;
+}
+
+@media only screen and (max-width: 600px){
+    .daily-part {
+        font-size: 20px;
+    }
+}
