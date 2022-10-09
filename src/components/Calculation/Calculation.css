@@ -1,8 +1,12 @@
 .add-break-section {
+    /* display: block; */
     margin: 0 auto;
     background-color: #0F172A;
     padding: 30px 50px;
-    height: 100%;
+
+    position: sticky;
+    top: 0;
+    /* padding: 30px 20px; */
 }
 
 .btn-custom {

@@ -32,7 +32,7 @@ const Calculation = ({ exerciseTime }) => {
     }
 
     return (
-        <div className='add-break-section'>
+        <div className='add-break-section sticky-top'>
             <div className='personal-section'>
                 <img src={profile} className='profile-img' alt="" />
                 <h5 className='text'>Instructor</h5>
