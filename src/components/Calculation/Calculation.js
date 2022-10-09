@@ -44,7 +44,7 @@ const Calculation = ({ exerciseTime }) => {
                     <button className='btn-custom' onClick={() => addBreakTime(40)}>40min</button>
                     <button className='btn-custom' onClick={() => addBreakTime(35)}>35min</button>
                     <button className='btn-custom' onClick={() => addBreakTime(50)}>50min</button>
-                    <button className='btn-custom' onClick={() => addBreakTime(58)}>58min</button>
+                    <button className='btn-custom' onClick={() => addBreakTime(58)}>60min</button>
                 </div>
 
             </div>

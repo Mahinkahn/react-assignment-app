@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Assets/Images/logo.jpg'
+import logo from '../../Assets/Images/logo.png'
 import './Header.css'
 
 
@@ -9,7 +9,7 @@ const Header = () => {
             <div className='mt-4'>
                 <div className='d-flex align-items-center style-add'>
                     <img src={logo} className='logo-header' alt="" />
-                    <h1 className='daily-part'>5 Everyday Activities </h1>
+                    <h1 className='daily-part'>Team of Expert Coaches</h1>
                 </div>
                 <div>
                     <h3 className='select-part mt-4'>Select Your Todays Part</h3>
