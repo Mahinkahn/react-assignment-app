@@ -1,9 +1,7 @@
 .add-break-section {
-    /* display: block; */
     margin: 0 auto;
     background-color: #0F172A;
     padding: 30px 50px;
-
     position: sticky;
     top: 0;
     /* padding: 30px 20px; */
@@ -35,6 +33,8 @@
     border-radius: 6px;
     font-weight: 600;
 }
+
+
 
 .text {
     color: #0DB2E3;

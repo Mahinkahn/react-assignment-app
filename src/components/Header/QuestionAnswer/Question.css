@@ -15,5 +15,6 @@
 @media only screen and (max-width: 600px) {
     .question-section {
         padding: 10px;
+        width: 100%;
     }
 }
